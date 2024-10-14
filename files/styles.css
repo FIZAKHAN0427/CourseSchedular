@@ -1,0 +1,27 @@
+body {
+    /* Apply a linear gradient from black to blue */
+    background: black;
+    
+    /* Add a subtle shadow effect for depth */
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
+  
+    /* Add a gradient overlay for a smooth transition effect */
+    background-blend-mode: overlay;
+  
+    /* Ensure the background covers the entire page */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    
+    /* Add a smooth transition for the gradient effect */
+    transition: background 0.5s ease-in-out;
+  }
+  
+  /* Optional: Add a hover effect to shift the gradient */
+  body:hover {
+    background: linear-gradient(120deg, #35357b, #000000);
+  }
+
+  tez
+  
